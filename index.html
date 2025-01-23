@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geostar&family=Girassol&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="game">
+      <img src="./img/nuvens.png" id="nuvens" />
+      <img src="./img/mario.gif" id="mario" />
+      <img src="./img/Pipe.png" id="pipe" />
+      <img src="./img/game_over.png" id="gameover" />
+      <button id="atualizar" onclick="location.reload()">
+        <img src="./img/atualizar.png" alt="" />
+      </button>
+      <h1 id="pontuacao">Pontuação: 0</h1>
+      <h1 id="record">Record: 0</h1>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
