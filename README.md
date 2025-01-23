@@ -27,6 +27,8 @@ This project was developed with the following technologies:
 
 Mario Game is a game where you can jump over obstacles. The game ends when you collide with an obstacle. The game is similar to Google's dinosaur game.
 
+[Acess te complete project online.](https://hugobertoncelo.github.io/Mario-Game/)
+
 ## :memo: License
 This project is under the MIT license.
 
